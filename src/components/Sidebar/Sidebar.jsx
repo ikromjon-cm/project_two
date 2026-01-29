@@ -12,11 +12,10 @@ const Sidebar = ({data}) => {
         <p>menu</p>
         <nav>
             <ul>
-                {data.map((item,index)=>
-                <li key={index}>
+                <li>
                     {item.icon } <span>{item.title}</span>
                 </li>
-                )}
+                
             </ul>
         </nav>
     </div>
