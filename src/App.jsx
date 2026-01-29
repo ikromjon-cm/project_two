@@ -1,35 +1,43 @@
+import { HiOutlineHome } from "react-icons/hi2";
+import { FaTableList } from "react-icons/fa6";
+import { MdOutlineMenuBook } from "react-icons/md";
+import { HiUsers } from "react-icons/hi";
+import { PiFlowerLotus } from "react-icons/pi";
+import { LuSquareActivity } from "react-icons/lu";
+import { FaWallet } from "react-icons/fa6";
+import { CiChat1 } from "react-icons/ci";
 const sidebar = [
   {
-    icon:'',
-    title:''
+    icon:<HiOutlineHome />,
+    title:'Dashboard'
   },
     {
-    icon:'',
-    title:''
+    icon:<MdOutlineMenuBook />,
+    title:'Order Line'
   },
   {
-    icon:'',
-    title:''
+    icon:<FaTableList />,
+    title:'Manage Table'
   },
   {
-    icon:'',
-    title:''
+    icon:<PiFlowerLotus />,
+    title:'Menus'
   },
   {
-    icon:'',
-    title:''
+    icon:<HiUsers />,
+    title:'Customer'
   },
   {
-    icon:'',
-    title:''
+    icon:<LuSquareActivity />,
+    title:'Analytics'
   },
   {
-    icon:'',
-    title:''
+    icon:<FaWallet />,
+    title:'Payment'
   },
   {
-    icon:'',
-    title:''
+    icon:<CiChat1 />,
+    title:'Chat'
   },
 
 ]
