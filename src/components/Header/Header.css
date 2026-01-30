@@ -60,3 +60,33 @@
   font-size: 20px;
   background-color: transparent;
 }
+.sidebar {
+    transition: all 0.3s ease;
+    width: 250px;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.sidebar.closed {
+    width: 60px; 
+    overflow: hidden;
+}
+
+.sidebar.closed h1{
+  display: none;
+}
+.sidebar.closed p{
+  display: none;
+}
+.sidebar.closed b {
+  display: none;
+}
+
+.btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+}
