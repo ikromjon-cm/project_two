@@ -16,6 +16,14 @@ const Sidebar = ({data}) => {
     </div>
     
     )}
+    <b>other</b>
+    <nav>
+        <ul>
+            {data.map((item,index)=>
+            <li key={index}>{item.icon} <p>{item.subtitle}</p></li>
+            )}
+        </ul>
+    </nav>
     </div>
   );
 }

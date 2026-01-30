@@ -32,6 +32,14 @@ import Sidebar from "./components/Sidebar/Sidebar";
       {
         url:'💬',
         title:'Chat'
+      },
+      {
+        icon:'💬',
+        subtitle:'Help Center'
+      },
+      {
+        icon:'👮‍♂️',
+        subtitle:'Settings'
       }
     ]
 
