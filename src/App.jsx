@@ -1,4 +1,6 @@
 import Sidebar from "./components/Sidebar/Sidebar";
+import Header from "./components/Header/Header";
+import './App.css'
     const data =[
       {
         url:'🏠',
@@ -42,13 +44,38 @@ import Sidebar from "./components/Sidebar/Sidebar";
         subtitle:'Settings'
       }
     ]
+    const headerData =[
+      {
+        url:'🔎',
+        title:'search'
+      },
+      {
+        icon:'🏬'
+      },
+      {
+        icon:'📳'
+      },
+      {
+        icon:'⛶'
+      },
+      {
+        icon:'📃'
+      },
+      {
+        icon:'🌧️',
+        subtitle:'15'
+      }
+    ]
+
+
 
 import React from 'react';
 
 const App = () => {
   return (
-    <div>
+    <div className="site">
       <Sidebar data={data} />
+      <Header data={headerData}/>
     </div>
   );
 }

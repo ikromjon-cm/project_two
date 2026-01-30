@@ -7,8 +7,8 @@ const Sidebar = ({data}) => {
         <h1>Bistro</h1>
         <p>menu</p>
       {data.map((item,index)=>
-    <div className="bar">
-        <nav key={ index}>
+    <div key={ index} className="bar">
+        <nav >
             <ul>
                 <li>{item.url} <p>{item.title}</p></li>
             </ul>

@@ -6,10 +6,11 @@
     list-style: none;
 }
 .sidebar{
-    width: 356px;
+    width: 206px;
     height: 100vh;
     background-color: #ffffff;
     position: sticky;
+    border: 1px solid yellow;
 }
 
 .sidebar h1 {
