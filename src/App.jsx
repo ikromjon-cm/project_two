@@ -1,5 +1,6 @@
 import Sidebar from "./components/Sidebar/Sidebar";
 import Header from "./components/Header/Header";
+import Banner from "./components/Banner/Banner";
 import './App.css'
     const data =[
       {
@@ -76,6 +77,7 @@ const App = () => {
     <div className="site">
       <Sidebar data={data} />
       <Header data={headerData}/>
+      <Banner/>
     </div>
   );
 }
