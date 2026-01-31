@@ -2,71 +2,77 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Header from "./components/Header/Header";
 import Banner from "./components/Banner/Banner";
 import './App.css'
-    const data =[
-      {
-        url:'🏠',
-        title:'Dashboard'
-      },
-      {
-        url:'📋',
-        title:'Order list'
-      },
-      {
-        url:'📨',
-        title:'Manage Table'
-      },
-      {
-        url:'🌺',
-        title:'Menus'
-      },
-      {
-        url:'👤',
-        title:'Customer'
-      },
-      {
-        url:'📈',
-        title:'Analytics'
-      },
-      {
-        url:'💳',
-        title:'Payment'
-      },
+const data = [
+  {
+    url: '🏠',
+    title: 'Dashboard'
+  },
+  {
+    url: '📋',
+    title: 'Order list'
+  },
+  {
+    url: '📨',
+    title: 'Manage Table'
+  },
+  {
+    url: '🌺',
+    title: 'Menus'
+  },
+  {
+    url: '👤',
+    title: 'Customer'
+  },
+  {
+    url: '📈',
+    title: 'Analytics'
+  },
+  {
+    url: '💳',
+    title: 'Payment'
+  },
 
-      {
-        url:'💬',
-        title:'Chat'
-      },
-      {
-        icon:'💬',
-        subtitle:'Help Center'
-      },
-      {
-        icon:'👮‍♂️',
-        subtitle:'Settings'
-      }
-    ]
-    const headerData =[
-      {
-        url:'🔎',
-        title:'search'
-      },
-      {
-        icon:'🏬'
-      },
-      {
-        icon:'📳'
-      },
-      {
-        icon:'⛶'
-      },
-      {
-        icon:'📃'
-      },
-      {
-        icon:'🌧️',
-        subtitle:'15'
-      }
-    ]
+  {
+    url: '💬',
+    title: 'Chat'
+  },
+  {
+    icon: '💬',
+    subtitle: 'Help Center'
+  },
+  {
+    icon: '👮‍♂️',
+    subtitle: 'Settings'
+  }
+]
+const headerData = [
+  {
+    url: '🔎',
+    title: 'search'
+  },
+  {
+    icon: '🏬'
+  },
+  {
+    icon: '📳'
+  },
+  {
+    icon: '⛶'
+  },
+  {
+    icon: '📃'
+  },
+  {
+    icon: '🌧️',
+    subtitle: '15'
+  }
+]
+const bannerData = [
+  { name: 'Chicken Sizzling', price: '$17.00' },
+  { name: 'Shrimp Tomato Soup', price: '$16.00' },
+  { name: 'Spicy Chicken', price: '$13.00' },
+  { name: 'Grilled Ribeye', price: '$26.00' }
+]
 
 
 
@@ -76,8 +82,8 @@ const App = () => {
   return (
     <div className="site">
       <Sidebar data={data} />
-      <Header data={headerData}/>
-      <Banner/>
+      <Header data={headerData} />
+      <Banner data = {bannerData}/>
     </div>
   );
 }

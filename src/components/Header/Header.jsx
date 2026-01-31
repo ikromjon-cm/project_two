@@ -2,7 +2,7 @@ import "./Header.css"
 
 const Header = () => {
   return (
-     <header className='header'>
+     <header>
       <div className="header-left">
         <div className="search">
           <span>🔍</span>
@@ -11,7 +11,6 @@ const Header = () => {
       </div>
       <div className="header-right">
 
-        <div className="header-right">
         <div className="nav-icon">🏠</div>
         <div className="nav-icon">🔔</div>
         <div className="nav-icon">⛶</div>
@@ -29,7 +28,6 @@ const Header = () => {
               </span>
           </div>
         </div>
-      </div>
       </div>
       
     </header>
