@@ -2,17 +2,17 @@ import './Sidebar.css'
 import React, { useState } from 'react'; 
 
 const Sidebar = ({data}) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [Open, setOpen] = useState(true);
 
   const none = () => {
-    setIsOpen(!isOpen);
+    setOpen(!Open);
   };
 
   return (
-    <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
+    <div className={`sidebar ${Open ? 'open' : 'closed'}`}>
         
         <button className="btn" onClick={none}>
-            {isOpen ? '❌' : '✅'}
+            {Open ? '❌' : '✅'}
         </button>
 
         <h1>Bistro</h1>
